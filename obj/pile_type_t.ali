@@ -1,0 +1,61 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U pile_type_t%b		pile_type_t.ads		63a4ee5f NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W tad_pile%s		tad_pile.adb		tad_pile.ali  ED
+W tad_type_t%s		tad_type_t.adb		tad_type_t.ali
+
+U pile_type_t%s		pile_type_t.ads		a9f39594 EB EE OO PK
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W tad_pile%s		tad_pile.adb		tad_pile.ali
+W tad_type_t%s		tad_type_t.adb		tad_type_t.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D chiffre.ads		20230120112412 37e88090 chiffre%s
+D coordonnee.ads	20230120112412 002d049f coordonnee%s
+D pile_type_t.ads	20230120112412 63a4ee5f pile_type_t%s
+D pile_type_t.ads	20230120112412 63a4ee5f pile_type_t%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D tad_pile.ads		20230120112412 25b80394 tad_pile%s
+D tad_pile.adb		20230120112412 5ab76e54 tad_pile%b
+D tad_type_t.ads	20230120112412 efef785f tad_type_t%s
+G a e
+G c s s s [s pile_type_t 3 1 none]
+G c Z s s [construirepile pile_type_t 14 13 3_1]
+G c Z s s [estvide pile_type_t 20 13 3_1]
+G c Z s s [dernier pile_type_t 28 13 3_1]
+G c Z s s [empiler pile_type_t 36 13 3_1]
+G c Z s s [depiler pile_type_t 43 13 3_1]
+G c Z s s [TtableauBIP pile_type_t 46 4 3_1]
+G c Z s s [type_pileIP pile_type_t 47 9 3_1]
+G r i none [s pile_type_t 3 1 none] [tad_pile standard 4 9 none]
+X 7 pile_type_t.ads
+3K9*Pile_type_T[13|4]
+X 13 tad_pile.ads
+4k9*TAD_Pile 7|1w6 3r28 13|52e13
+X 15 tad_type_t.ads
+4K9*TAD_Type_T 7|2w6 2r22 15|33e15
+6R9*type_T 7|3r37 15|31e14
+

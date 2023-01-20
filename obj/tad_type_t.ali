@@ -1,0 +1,49 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U tad_type_t%b		tad_type_t.adb		b0b0dfe2 NE OO PK
+
+U tad_type_t%s		tad_type_t.ads		d82afc50 EE NE OO PK
+W chiffre%s		chiffre.adb		chiffre.ali
+W coordonnee%s		coordonnee.adb		coordonnee.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D chiffre.ads		20230120112412 37e88090 chiffre%s
+D coordonnee.ads	20230120112412 002d049f coordonnee%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D tad_type_t.ads	20230120112412 efef785f tad_type_t%s
+D tad_type_t.adb	20230120112412 5f5fa7bd tad_type_t%b
+G a e
+G c Z s b [construiret tad_type_t 12 14 none]
+G c Z s b [obtenircoordonneet tad_type_t 19 13 none]
+G c Z s b [obtenirchiffret tad_type_t 25 13 none]
+G c Z s s [type_tIP tad_type_t 28 9 none]
+X 3 chiffre.ads
+1K9*Chiffre 51e12 8|1w6 1r23
+4I9*Type_Chiffre<short_short_integer> 8|13r58 25r53 30r11 9|8r58 31r30
+X 4 coordonnee.ads
+1K9*Coordonnee 49e15 8|2w6 2r23
+3R9*Type_Coordonnee 47e14 8|13r34 19r56 29r11 9|8r34 20r30
+X 8 tad_type_t.ads
+4K9*TAD_Type_T 28E9 33l5 33e15 9|1b14 37l5 37t15
+6R9*type_T 13r19 19r41 25r38 28c9 31e14 9|8r19 20r15 31r15
+12U14*construireT 13=7 13>27 13>51 9|7b14 13l8 13t19
+13r7 Te{6R9} 9|8b7 11m7 12m7
+13r27 C{4|3R9} 9|8b27 11r15
+13i51 V{3|4I9} 9|8b51 12r15
+19V13*obtenirCoordonneeT{4|3R9} 19>33 9|19b13 24l8 24t26
+19r33 Te{6R9} 9|20b7 23r14
+25V13*obtenirChiffreT{3|4I9} 25>30 9|30b13 35l8 35t23
+25r30 Te{6R9} 9|31b7 34r14
+29r7*C{4|3R9} 9|11m10 23r17
+30i7*V{3|4I9} 9|12m10 34r17
+

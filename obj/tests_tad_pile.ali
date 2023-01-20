@@ -1,0 +1,189 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U tests_tad_pile%b	tests_tad_pile.adb	a107025f NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W pile_entier%s		pile_entier.ads		pile_entier.ali
+
+U tests_tad_pile%s	tests_tad_pile.ads	123f62d3 EE OO PF PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-charac.ads		20200819050642 2d3ec45b ada.characters%s
+D a-chlat1.ads		20200819050642 66457d31 ada.characters.latin_1%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-finali.ads		20200819050644 bf4f806b ada.finalization%s
+D a-inteio.ads		20200819050644 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200819050644 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200819050644 119b8fb3 ada.streams%s
+D a-string.ads		20200819050644 90ac6797 ada.strings%s
+D a-strmap.ads		20200819050644 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20200819050644 1656705b ada.strings.unbounded%s
+D a-tags.ads		20200819050644 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050644 aef4d56d ada.text_io%s
+D a-tiinio.ads		20200819050644 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200819050646 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050646 e53d8b8e interfaces.c_streams%s
+D pile_entier.ads	20230116172958 2cbbdca7 pile_entier%s
+D system.ads		20200819050648 32a08138 system%s
+D s-atocou.ads		20200819050646 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20200819050646 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050646 078245e4 system.file_control_block%s
+D s-finmas.ads		20200819050646 7811a767 system.finalization_masters%s
+D s-finroo.ads		20200819050646 4ff27390 system.finalization_root%s
+D s-memory.ads		20200819050646 597d6634 system.memory%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-secsta.ads		20200819050648 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050648 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050648 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-stalib.adb		20200819050648 f2fe2716 system.standard_library%b
+D s-stoele.ads		20200819050648 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20200819050648 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20200819050648 e251976f system.storage_pools.subpools%s
+D s-stratt.ads		20200819050648 9a2744e9 system.stream_attributes%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050648 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050648 1b7d22d2 system.wch_con%s
+D tad_pile.ads		20230117135000 25b80394 tad_pile%s
+D tests_tad_pile.ads	20230117093604 04691288 tests_tad_pile%s
+D tests_tad_pile.adb	20230117135012 d16a90b9 tests_tad_pile%b
+G a e
+G c Z s b [test_p1 tests_tad_pile 12 13 none]
+G c Z s b [test_p2 tests_tad_pile 13 13 none]
+G c Z s b [test_p3 tests_tad_pile 14 13 none]
+G c Z s b [test_p4a tests_tad_pile 15 13 none]
+G c Z s b [test_p4b tests_tad_pile 16 13 none]
+G c Z s b [test_exception_pile_pleine tests_tad_pile 17 13 none]
+G c Z s b [test_exception_pile_videa tests_tad_pile 18 13 none]
+G c Z s b [test_exception_pile_videb tests_tad_pile 19 13 none]
+G c Z s s [test_unitaireDI tests_tad_pile 7 9 none]
+G c Z s s [test_unitaireDF tests_tad_pile 7 9 none]
+G c Z s s [test_unitaireIP tests_tad_pile 7 9 none]
+G c Z s s [Tles_testsTDI tests_tad_pile 21 4 none]
+G c Z s s [Tles_testsTDF tests_tad_pile 21 4 none]
+G c Z s s [TresultatsBIP tests_tad_pile 31 4 none]
+G r s type_pile [test_p1 tests_tad_pile 12 13 none] [type_pileIP pile_entier 47 9 2_1]
+G r c none [test_p1 tests_tad_pile 12 13 none] [construirepile pile_entier 14 13 2_1]
+G r c none [test_p1 tests_tad_pile 12 13 none] [estvide pile_entier 20 13 2_1]
+G r s type_pile [test_p2 tests_tad_pile 13 13 none] [type_pileIP pile_entier 47 9 2_1]
+G r c none [test_p2 tests_tad_pile 13 13 none] [construirepile pile_entier 14 13 2_1]
+G r c none [test_p2 tests_tad_pile 13 13 none] [empiler pile_entier 36 13 2_1]
+G r c none [test_p2 tests_tad_pile 13 13 none] [estvide pile_entier 20 13 2_1]
+G r s type_pile [test_p3 tests_tad_pile 14 13 none] [type_pileIP pile_entier 47 9 2_1]
+G r c none [test_p3 tests_tad_pile 14 13 none] [construirepile pile_entier 14 13 2_1]
+G r c none [test_p3 tests_tad_pile 14 13 none] [empiler pile_entier 36 13 2_1]
+G r c none [test_p3 tests_tad_pile 14 13 none] [dernier pile_entier 28 13 2_1]
+G r s type_pile [test_p4a tests_tad_pile 15 13 none] [type_pileIP pile_entier 47 9 2_1]
+G r c none [test_p4a tests_tad_pile 15 13 none] [construirepile pile_entier 14 13 2_1]
+G r c none [test_p4a tests_tad_pile 15 13 none] [empiler pile_entier 36 13 2_1]
+G r c none [test_p4a tests_tad_pile 15 13 none] [depiler pile_entier 43 13 2_1]
+G r c none [test_p4a tests_tad_pile 15 13 none] [estvide pile_entier 20 13 2_1]
+G r s type_pile [test_p4b tests_tad_pile 16 13 none] [type_pileIP pile_entier 47 9 2_1]
+G r c none [test_p4b tests_tad_pile 16 13 none] [construirepile pile_entier 14 13 2_1]
+G r c none [test_p4b tests_tad_pile 16 13 none] [empiler pile_entier 36 13 2_1]
+G r c none [test_p4b tests_tad_pile 16 13 none] [depiler pile_entier 43 13 2_1]
+G r c none [test_p4b tests_tad_pile 16 13 none] [dernier pile_entier 28 13 2_1]
+G r s type_pile [test_exception_pile_pleine tests_tad_pile 17 13 none] [type_pileIP pile_entier 47 9 2_1]
+G r c none [test_exception_pile_pleine tests_tad_pile 17 13 none] [construirepile pile_entier 14 13 2_1]
+G r c none [test_exception_pile_pleine tests_tad_pile 17 13 none] [empiler pile_entier 36 13 2_1]
+G r s type_pile [test_exception_pile_videa tests_tad_pile 18 13 none] [type_pileIP pile_entier 47 9 2_1]
+G r c none [test_exception_pile_videa tests_tad_pile 18 13 none] [construirepile pile_entier 14 13 2_1]
+G r c none [test_exception_pile_videa tests_tad_pile 18 13 none] [dernier pile_entier 28 13 2_1]
+G r s type_pile [test_exception_pile_videb tests_tad_pile 19 13 none] [type_pileIP pile_entier 47 9 2_1]
+G r c none [test_exception_pile_videb tests_tad_pile 19 13 none] [construirepile pile_entier 14 13 2_1]
+G r c none [test_exception_pile_videb tests_tad_pile 19 13 none] [depiler pile_entier 43 13 2_1]
+X 1 ada.ads
+16K9*Ada 20e8 41|1r6 1r33 42|2r6 2r31 3r6 3r31
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[14|46] 42|3w10 3r35
+X 9 a-string.ads
+16K13*Strings 35e16 41|1r10 1r37
+X 11 a-strunb.ads
+82K21*Unbounded 758e26 41|1w18 1r45
+87R9*Unbounded_String<5|43R9> 741e14 41|9r26
+103V13*To_Unbounded_String{87R9} 41|22s24 23s24 24s24 25s25 26s25 27s43 28s42
+. 29s42
+X 13 a-textio.ads
+57K13*Text_IO 727e16 42|2w10 2r35
+X 18 pile_entier.ads
+2K9*Pile_Entier[40|4] 42|6w6 6r30
+X 19 system.ads
+67M9*Address
+X 26 s-memory.ads
+53V13*Alloc{19|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{19|67M9} 105i<c,__gnat_realloc>22
+X 32 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 40 tad_pile.ads
+6N4*TAILLE_MAX 42|78r19[18|2]
+7R9*Type_Pile 42|21r11[18|2] 31r11[18|2] 42r21[18|2] 53r21[18|2] 62r11[18|2]
+. 75r13[18|2] 93r11[18|2] 107r11[18|2]
+9X4*PILE_VIDE 42|100r12[18|2] 113r12[18|2]
+10X4*PILE_PLEINE 42|83r12[18|2]
+14V13*construirePile{7R9[18|2]} 42|23s12[18|2] 33s12[18|2] 44s22[18|2] 55s12[18|2]
+. 64s12[18|2] 77s12[18|2] 96s12[18|2] 109s12[18|2]
+20V13*estVide{boolean} 42|24s14[18|2] 35s19[18|2] 58s14[18|2]
+28V13*dernier{integer} 42|46s24[18|2] 68s14[18|2] 97s12[18|2]
+36V13*empiler{7R9[18|2]} 42|34s12[18|2] 45s22[18|2] 56s12[18|2] 65s12[18|2]
+. 66s12[18|2] 79s15[18|2]
+43V13*depiler{7R9[18|2]} 42|57s12[18|2] 67s12[18|2] 110s12[18|2]
+X 41 tests_tad_pile.ads
+3K9*tests_TAD_Pile 33l5 33e19 42|15b14 119l5 119t19
+5P9*Pt_Fonction(boolean) 8r26
+7R9*Test_Unitaire 10e14 21r54
+8p7*function_Of_Test{5P9}
+9r7*error_Test{11|87R9}
+12V13*test_P1{boolean} 22r8 42|20b13 25l8 25t15
+13V13*test_P2{boolean} 23r8 42|30b13 36l8 36t15
+14V13*test_P3{boolean} 24r8 42|41b18 47l8 47t15
+15V13*test_P4a{boolean} 25r8 42|52b11 59l8 59t16
+16V13*test_P4b{boolean} 26r8 42|61b13 69l8 69t16
+17V13*test_Exception_Pile_Pleine{boolean} 27r8 42|74b13 87l8 87t34
+18V13*test_Exception_Pile_Videa{boolean} 28r8 29r8 42|92b13 104l8 104t33
+19V13*test_Exception_Pile_Videb{boolean} 42|106b13 117l8 117t33
+21a4*les_Tests(7R9) 31r22
+31a4*resultats(boolean)
+X 42 tests_tad_pile.adb
+21r7 p{40|7R9[18|2]} 23m7 24r22
+31r7 p{40|7R9[18|2]} 33m7 34m7 34r20 35r28
+42r17 p{40|7R9[18|2]} 44m17 45m17 45r30 46r33
+53r17 p{40|7R9[18|2]} 55m7 56m7 56r20 57m7 57r21 58r23
+62r7 p{40|7R9[18|2]} 64m7 65m7 65r20 66m7 66r20 67m7 67r21 68r23
+75r9 p{40|7R9[18|2]} 77m7 79m10 79r23
+78i11 i{integer} 79r26
+93r7 p{40|7R9[18|2]} 96m7 97r20
+94i7 i{integer} 97m7
+107r7 p{40|7R9[18|2]} 109m7 110m7 110r20
+

@@ -1,0 +1,43 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -gnatc
+A -mtune=generic
+A -march=x86-64
+P NO FX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U tad_ta%s		tad_t.ads		b715d963 EE OO PK IU
+W chiffre%s		chiffre.adb		chiffre.ali
+W coordonnee%s		coordonnee.adb		coordonnee.ali
+
+D chiffre.ads		20230117131610 37e88090 chiffre%s
+D coordonnee.ads	20230117131610 002d049f coordonnee%s
+D tad_t.ads		20230117135704 80d05d6c tad_ta%s
+G a e
+G c Z s b [construiret tad_t 12 14 none]
+G c Z s b [obtenircoordonneet tad_t 19 13 none]
+G c Z s b [obtenirchiffret tad_t 25 13 none]
+G c Z s s [tIP tad_t 28 9 none]
+X 1 chiffre.ads
+1K9*Chiffre 51e12 3|1w6 1r23
+4I9*Type_Chiffre<short_short_integer> 3|13r58 25r53 30r11
+X 2 coordonnee.ads
+1K9*Coordonnee 49e15 3|2w6 2r23
+3R9*Type_Coordonnee 47e14 3|13r34 19r56 29r11
+X 3 tad_t.ads
+4K9*TAD_TA 28E9 33l5 33e11
+6R9*type_T 13r19 19r41 25r38 28c9 31e14
+12U14*construireT 13=7 13>27 13>51
+13r7 Te{6R9}
+13r27 C{2|3R9}
+13i51 V{1|4I9}
+19V13*obtenirCoordonneeT{2|3R9} 19>33
+19r33 Te{6R9}
+25V13*obtenirChiffreT{1|4I9} 25>30
+25r30 Te{6R9}
+29r7*C{2|3R9}
+30i7*V{1|4I9}
+

@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__run_tests_chiffre.o
+[PROJECT FILES]
+C:\Users\corbe\Desktop\DUTINFO\S1\SAE\S1.02\Takuzu_V2\takuzu.gpr
+20221221112700 b41c7e607c3fc856312e9bae541a44ea
+[BOUND OBJECT FILES]
+C:\Users\corbe\Desktop\DUTINFO\S1\SAE\S1.02\Takuzu_V2\obj\chiffre.o
+C:\Users\corbe\Desktop\DUTINFO\S1\SAE\S1.02\Takuzu_V2\obj\types_tests.o
+C:\Users\corbe\Desktop\DUTINFO\S1\SAE\S1.02\Takuzu_V2\obj\a_tester_chiffre.o
+C:\Users\corbe\Desktop\DUTINFO\S1\SAE\S1.02\Takuzu_V2\obj\run_tests_chiffre.o
+[GENERATED SOURCE FILES]
+b__run_tests_chiffre.ads
+b__run_tests_chiffre.adb
+b__run_tests_chiffre.ali
+[RESULTING OPTIONS]
+-LC:\Users\corbe\Desktop\DUTINFO\S1\SAE\S1.02\Takuzu_V2\obj\
+-LC:\Users\corbe\Desktop\DUTINFO\S1\SAE\S1.02\Takuzu_V2\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

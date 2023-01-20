@@ -1,0 +1,29 @@
+[GENERATED OBJECT FILE]
+b__tests_resolution_takuzu.o
+[PROJECT FILES]
+D:\Takuzu_V2\takuzu.gpr
+20230117143030 d70513cc36b2513dbc01699ac7181145
+[BOUND OBJECT FILES]
+D:\Takuzu_V2\obj\chiffre.o
+D:\Takuzu_V2\obj\coordonnee.o
+D:\Takuzu_V2\obj\rangee.o
+D:\Takuzu_V2\obj\grille.o
+D:\Takuzu_V2\obj\affichage.o
+D:\Takuzu_V2\obj\remplir_grille_takuzu.o
+D:\Takuzu_V2\obj\TAD_Pile.o
+D:\Takuzu_V2\obj\TAD_Type_T.o
+D:\Takuzu_V2\obj\pile_type_T.o
+D:\Takuzu_V2\obj\resolution_takuzu.o
+D:\Takuzu_V2\obj\tests_resolution_takuzu.o
+[GENERATED SOURCE FILES]
+b__tests_resolution_takuzu.ads
+b__tests_resolution_takuzu.adb
+b__tests_resolution_takuzu.ali
+[RESULTING OPTIONS]
+-LD:\Takuzu_V2\obj\
+-LD:\Takuzu_V2\obj\
+-LG:/logiciels/gnat_2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+G:/logiciels/gnat_2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

@@ -1,0 +1,53 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U pile_entier%b		pile_entier.ads		2cbbdca7 NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W tad_pile%s		tad_pile.adb		tad_pile.ali  ED
+
+U pile_entier%s		pile_entier.ads		0903df33 EB EE OO PK
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W tad_pile%s		tad_pile.adb		tad_pile.ali
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D pile_entier.ads	20230116172958 2cbbdca7 pile_entier%s
+D pile_entier.ads	20230116172958 2cbbdca7 pile_entier%b
+D system.ads		20200819050648 32a08138 system%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+D tad_pile.ads		20230117135000 25b80394 tad_pile%s
+D tad_pile.adb		20230117134704 5ab76e54 tad_pile%b
+G a e
+G c s s s [s pile_entier 2 1 none]
+G c Z s s [construirepile pile_entier 14 13 2_1]
+G c Z s s [estvide pile_entier 20 13 2_1]
+G c Z s s [dernier pile_entier 28 13 2_1]
+G c Z s s [empiler pile_entier 36 13 2_1]
+G c Z s s [depiler pile_entier 43 13 2_1]
+G c Z s s [TtableauBIP pile_entier 46 4 2_1]
+G c Z s s [type_pileIP pile_entier 47 9 2_1]
+G r i none [s pile_entier 2 1 none] [tad_pile standard 4 9 none]
+X 5 pile_entier.ads
+2K9*Pile_Entier[11|4]
+X 11 tad_pile.ads
+4k9*TAD_Pile 5|1w6 2r28 11|52e13
+

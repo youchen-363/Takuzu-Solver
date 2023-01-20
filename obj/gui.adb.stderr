@@ -1,0 +1,1 @@
+gui.adb:42:31: warning: "Taille_Max" may be referenced before it has a value [enabled by default]

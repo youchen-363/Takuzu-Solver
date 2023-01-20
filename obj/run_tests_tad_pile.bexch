@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__run_tests_tad_pile.o
+[PROJECT FILES]
+C:\Informatique_IUT\TP\S1.02\Takuzu_Backtracking\Takuzu_Backtracking\Takuzu_V2\takuzu.gpr
+20230117134658 3a08557fab61d51a137765edb1bd85e1
+[BOUND OBJECT FILES]
+C:\Informatique_IUT\TP\S1.02\Takuzu_Backtracking\Takuzu_Backtracking\Takuzu_V2\obj\TAD_Pile.o
+C:\Informatique_IUT\TP\S1.02\Takuzu_Backtracking\Takuzu_Backtracking\Takuzu_V2\obj\pile_entier.o
+C:\Informatique_IUT\TP\S1.02\Takuzu_Backtracking\Takuzu_Backtracking\Takuzu_V2\obj\tests_TAD_pile.o
+C:\Informatique_IUT\TP\S1.02\Takuzu_Backtracking\Takuzu_Backtracking\Takuzu_V2\obj\run_tests_TAD_Pile.o
+[GENERATED SOURCE FILES]
+b__run_tests_tad_pile.ads
+b__run_tests_tad_pile.adb
+b__run_tests_tad_pile.ali
+[RESULTING OPTIONS]
+-LC:\Informatique_IUT\TP\S1.02\Takuzu_Backtracking\Takuzu_Backtracking\Takuzu_V2\obj\
+-LC:\Informatique_IUT\TP\S1.02\Takuzu_Backtracking\Takuzu_Backtracking\Takuzu_V2\obj\
+-LC:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

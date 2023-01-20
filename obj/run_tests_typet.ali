@@ -1,0 +1,97 @@
+V "GNAT Lib v2020"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U run_tests_typet%b	run_tests_typet.adb	adc133e9 NE OO SU
+W a_tester_typet%s	a_tester_typet.adb	a_tester_typet.ali
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D a_tester_typet.ads	20230117142832 1b1cbd31 a_tester_typet%s
+D ada.ads		20200819050644 76789da1 ada%s
+D a-charac.ads		20200819050642 2d3ec45b ada.characters%s
+D a-chlat1.ads		20200819050642 66457d31 ada.characters.latin_1%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-finali.ads		20200819050644 bf4f806b ada.finalization%s
+D a-inteio.ads		20200819050644 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200819050644 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200819050644 119b8fb3 ada.streams%s
+D a-string.ads		20200819050644 90ac6797 ada.strings%s
+D a-strmap.ads		20200819050644 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20200819050644 1656705b ada.strings.unbounded%s
+D a-tags.ads		20200819050644 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050644 aef4d56d ada.text_io%s
+D a-tiinio.ads		20200819050644 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D chiffre.ads		20230117131610 37e88090 chiffre%s
+D coordonnee.ads	20230117131610 002d049f coordonnee%s
+D interfac.ads		20200819050646 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050646 e53d8b8e interfaces.c_streams%s
+D run_tests_typet.adb	20230117142954 f834a24a run_tests_typet%b
+D system.ads		20200819050648 32a08138 system%s
+D s-atocou.ads		20200819050646 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20200819050646 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050646 078245e4 system.file_control_block%s
+D s-finmas.ads		20200819050646 7811a767 system.finalization_masters%s
+D s-finroo.ads		20200819050646 4ff27390 system.finalization_root%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-secsta.ads		20200819050648 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050648 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050648 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050648 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20200819050648 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20200819050648 e251976f system.storage_pools.subpools%s
+D s-stratt.ads		20200819050648 9a2744e9 system.stream_attributes%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050648 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050648 1b7d22d2 system.wch_con%s
+D tad_type_t.ads	20230117141802 efef785f tad_type_t%s
+D types_tests.ads	20221201173422 b0a51c25 types_tests%s
+G a e
+G c Z b b [run_tests_typet standard 8 11 none]
+X 1 a_tester_typet.ads
+7K9*a_tester_TypeT 27e19 21|6w6 6r26
+15a4*Les_Tests(42|7R9) 21|11r13 12r24 31r34
+25a4*Resultats(boolean) 21|12m7 16r10 25r21 25r40 29r16 30r17
+X 2 ada.ads
+16K9*Ada 20e8 21|2r6 2r33 3r6 3r33 4r6 4r33
+X 7 a-inteio.ads
+18K13*Integer_Text_IO[15|46] 21|3w10 3r37
+X 10 a-string.ads
+16K13*Strings 35e16 21|4r10 4r37
+X 12 a-strunb.ads
+82K21*Unbounded 758e26 21|4w18 4r45
+116V13*To_String{string} 21|31s23
+X 14 a-textio.ads
+57K13*Text_IO 727e16 21|2w10 2r37
+264U14*New_Line 21|21s7
+465U14*Put 21|13s7 15s7 17s10 19s10
+508U14*Put_Line 21|26s7 28s7 31s13
+X 15 a-tiinio.ads
+80U14*Put 21|14s7[7|18]
+X 21 run_tests_typet.adb
+8U11*Run_Tests_TypeT 8b11 35l5 35t20
+11i8 I{integer} 12r18 12r35 14r12 16r21
+25i16 I{integer} 25r51
+29i11 I{integer} 30r28 31r45
+X 42 types_tests.ads
+5P9*Pt_Fonction(boolean)
+8p7*Function_Of_Test{5P9} 21|12r38
+9r7*Error_Test{12|87R9} 21|31r48
+
