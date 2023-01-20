@@ -29,18 +29,18 @@ W tad_type_t%s		tad_type_t.adb		tad_type_t.ali
 D ada.ads		20210520051132 76789da1 ada%s
 D a-except.ads		20210520051128 946f3014 ada.exceptions%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D chiffre.ads		20230120112412 37e88090 chiffre%s
-D coordonnee.ads	20230120112412 002d049f coordonnee%s
-D pile_type_t.ads	20230120112412 63a4ee5f pile_type_t%s
-D pile_type_t.ads	20230120112412 63a4ee5f pile_type_t%b
+D chiffre.ads		20230117151522 37e88090 chiffre%s
+D coordonnee.ads	20230117131612 002d049f coordonnee%s
+D pile_type_t.ads	20230117143136 63a4ee5f pile_type_t%s
+D pile_type_t.ads	20230117143136 63a4ee5f pile_type_t%b
 D system.ads		20210520051136 2ffa5114 system%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
 D s-parame.ads		20210520051134 4752c4cb system.parameters%s
 D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
 D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
-D tad_pile.ads		20230120112412 25b80394 tad_pile%s
-D tad_pile.adb		20230120112412 5ab76e54 tad_pile%b
-D tad_type_t.ads	20230120112412 efef785f tad_type_t%s
+D tad_pile.ads		20230117135002 25b80394 tad_pile%s
+D tad_pile.adb		20230117134704 5ab76e54 tad_pile%b
+D tad_type_t.ads	20230117150600 efef785f tad_type_t%s
 G a e
 G c s s s [s pile_type_t 3 1 none]
 G c Z s s [construirepile pile_type_t 14 13 3_1]

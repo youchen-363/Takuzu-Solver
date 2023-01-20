@@ -15,13 +15,13 @@ W coordonnee%s		coordonnee.adb		coordonnee.ali
 
 D ada.ads		20210520051132 76789da1 ada%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D chiffre.ads		20230120112412 37e88090 chiffre%s
-D coordonnee.ads	20230120112412 002d049f coordonnee%s
+D chiffre.ads		20230117151522 37e88090 chiffre%s
+D coordonnee.ads	20230117131612 002d049f coordonnee%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
 D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
-D tad_type_t.ads	20230120112412 efef785f tad_type_t%s
-D tad_type_t.adb	20230120112412 5f5fa7bd tad_type_t%b
+D tad_type_t.ads	20230117150600 efef785f tad_type_t%s
+D tad_type_t.adb	20230117140524 5f5fa7bd tad_type_t%b
 G a e
 G c Z s b [construiret tad_type_t 12 14 none]
 G c Z s b [obtenircoordonneet tad_type_t 19 13 none]

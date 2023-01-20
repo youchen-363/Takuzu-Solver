@@ -25,11 +25,11 @@ Z system.standard_library%s  s-stalib.adb	s-stalib.ali
 D ada.ads		20210520051132 76789da1 ada%s
 D a-except.ads		20210520051128 946f3014 ada.exceptions%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D chiffre.ads		20230120112412 37e88090 chiffre%s
-D coordonnee.ads	20230120112412 002d049f coordonnee%s
-D grille.ads		20230120112412 c9384163 grille%s
-D grille.adb		20230120112412 e924e7f4 grille%b
-D rangee.ads		20230120112412 6de136fc rangee%s
+D chiffre.ads		20230117151522 37e88090 chiffre%s
+D coordonnee.ads	20230117131612 002d049f coordonnee%s
+D grille.ads		20230117150940 c9384163 grille%s
+D grille.adb		20230117125924 e924e7f4 grille%b
+D rangee.ads		20230117151402 6de136fc rangee%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
 D s-parame.ads		20210520051134 4752c4cb system.parameters%s

@@ -67,11 +67,11 @@ D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D a-uncdea.ads		20210520051130 c3a8ac65 ada.unchecked_deallocation%s
-D affichage.ads		20230120112412 c65c41a0 affichage%s
+D affichage.ads		20221201173420 c65c41a0 affichage%s
 D cairo.ads		20210519053508 925d4aaa cairo%s
 D cairo-region.ads	20210519053508 b7133728 cairo.region%s
-D chiffre.ads		20230120112412 37e88090 chiffre%s
-D coordonnee.ads	20230120112412 002d049f coordonnee%s
+D chiffre.ads		20230117151522 37e88090 chiffre%s
+D coordonnee.ads	20230117131612 002d049f coordonnee%s
 D gdk.ads		20210519053508 96d821f3 gdk%s
 D gdk-color.ads		20210519053508 ef57bc34 gdk.color%s
 D gdk-device.ads	20210519053508 04c1ecbd gdk.device%s
@@ -103,7 +103,7 @@ D glib-variant.ads	20210519053508 aee5d7d3 glib.variant%s
 D gnat.ads		20210520051132 b5988c27 gnat%s
 D g-forstr.ads		20210520051132 46284c63 gnat.formatted_string%s
 D g-string.ads		20210520051132 c6abc540 gnat.strings%s
-D grille.ads		20230120112412 c9384163 grille%s
+D grille.ads		20230117150940 c9384163 grille%s
 D gtk.ads		20210519053508 cfdeaf1c gtk%s
 D gtk-accel_group.ads	20210519053508 a14a159a gtk.accel_group%s
 D gtk-action.ads	20210519053508 98120d78 gtk.action%s
@@ -134,7 +134,7 @@ D gtk-widget.ads	20210519053508 07bd7883 gtk.widget%s
 D gtk-window.ads	20210519053508 e91a448d gtk.window%s
 D gtkada.ads		20210519053508 57aea1c7 gtkada%s
 D gtkada-types.ads	20210519053508 471f54b5 gtkada.types%s
-D gui.adb		20230120112412 c02eec33 gui%b
+D gui.adb		20230120012852 c02eec33 gui%b
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-c.ads		20210520051132 d9beded9 interfaces.c%s
 D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
@@ -152,10 +152,10 @@ D pango-language.ads	20210519053508 e96cb8f4 pango.language%s
 D pango-layout.ads	20210519053508 d240b716 pango.layout%s
 D pango-matrix.ads	20210519053508 309f74b5 pango.matrix%s
 D pango-tabs.ads	20210519053508 0c575925 pango.tabs%s
-D pile_type_t.ads	20230120112412 63a4ee5f pile_type_t%s
-D rangee.ads		20230120112412 6de136fc rangee%s
-D remplir_grille_takuzu.ads  20230120112412 8b6fa799 remplir_grille_takuzu%s
-D resolution_takuzu.ads	20230120112412 69c6d8e2 resolution_takuzu%s
+D pile_type_t.ads	20230117143136 63a4ee5f pile_type_t%s
+D rangee.ads		20230117151402 6de136fc rangee%s
+D remplir_grille_takuzu.ads  20221201104256 8b6fa799 remplir_grille_takuzu%s
+D resolution_takuzu.ads	20230117152520 69c6d8e2 resolution_takuzu%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-atocou.ads		20210520051132 b45c2d8d system.atomic_counters%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
@@ -180,8 +180,8 @@ D s-string.ads		20210520051134 8fe54fb7 system.strings%s
 D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
 D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
-D tad_pile.ads		20230120112412 25b80394 tad_pile%s
-D tad_type_t.ads	20230120112412 efef785f tad_type_t%s
+D tad_pile.ads		20230117135002 25b80394 tad_pile%s
+D tad_type_t.ads	20230117150600 efef785f tad_type_t%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
 G c Z b b [gui standard 26 11 none]

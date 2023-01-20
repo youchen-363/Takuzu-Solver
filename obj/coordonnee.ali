@@ -11,8 +11,8 @@ U coordonnee%b		coordonnee.adb		0eb1f033 NE OO PK
 
 U coordonnee%s		coordonnee.ads		002d049f EE NE OO PK
 
-D coordonnee.ads	20230120112412 002d049f coordonnee%s
-D coordonnee.adb	20230120112412 0e9cf4ac coordonnee%b
+D coordonnee.ads	20230117131612 002d049f coordonnee%s
+D coordonnee.adb	20230117132952 0e9cf4ac coordonnee%b
 D system.ads		20210520051136 2ffa5114 system%s
 G a e
 G c Z s b [construirecoordonnees coordonnee 8 13 none]

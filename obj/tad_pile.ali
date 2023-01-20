@@ -13,8 +13,8 @@ U tad_pile%b		tad_pile.adb		7f0f6dc0 NE OO PK GE IL
 U tad_pile%s		tad_pile.ads		25b80394 BN EE NE OO PK GE IL
 
 D system.ads		20210520051136 2ffa5114 system%s
-D tad_pile.ads		20230120112412 25b80394 tad_pile%s
-D tad_pile.adb		20230120112412 5ab76e54 tad_pile%b
+D tad_pile.ads		20230117135002 25b80394 tad_pile%s
+D tad_pile.adb		20230117134704 5ab76e54 tad_pile%b
 G a e
 G c Z s b [tad_pile standard 4 9 none]
 X 2 tad_pile.ads

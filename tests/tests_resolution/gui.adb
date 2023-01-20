@@ -157,9 +157,6 @@ begin
    
    Gtk_New (label2, "Grille complétée");
     
-   if Self = Button then
-         Set_Text(Label2, "Hello");
-      end if;
 
    VBox.Pack_End(Tableau2) ; 
    VBox.Pack_End(label2) ;

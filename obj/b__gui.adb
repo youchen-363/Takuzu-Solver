@@ -1124,21 +1124,21 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\goujo\Desktop\Takuzu_V2\obj\chiffre.o
-   --   C:\Users\goujo\Desktop\Takuzu_V2\obj\coordonnee.o
-   --   C:\Users\goujo\Desktop\Takuzu_V2\obj\rangee.o
-   --   C:\Users\goujo\Desktop\Takuzu_V2\obj\grille.o
-   --   C:\Users\goujo\Desktop\Takuzu_V2\obj\affichage.o
-   --   C:\Users\goujo\Desktop\Takuzu_V2\obj\remplir_grille_takuzu.o
-   --   C:\Users\goujo\Desktop\Takuzu_V2\obj\TAD_Pile.o
-   --   C:\Users\goujo\Desktop\Takuzu_V2\obj\TAD_Type_T.o
-   --   C:\Users\goujo\Desktop\Takuzu_V2\obj\pile_type_T.o
-   --   C:\Users\goujo\Desktop\Takuzu_V2\obj\resolution_takuzu.o
-   --   C:\Users\goujo\Desktop\Takuzu_V2\obj\gui.o
-   --   -LC:\Users\goujo\Desktop\Takuzu_V2\obj\
-   --   -LC:\Users\goujo\Desktop\Takuzu_V2\obj\
+   --   D:\Takuzu_V2\obj\chiffre.o
+   --   D:\Takuzu_V2\obj\coordonnee.o
+   --   D:\Takuzu_V2\obj\rangee.o
+   --   D:\Takuzu_V2\obj\grille.o
+   --   D:\Takuzu_V2\obj\affichage.o
+   --   D:\Takuzu_V2\obj\remplir_grille_takuzu.o
+   --   D:\Takuzu_V2\obj\TAD_Pile.o
+   --   D:\Takuzu_V2\obj\TAD_Type_T.o
+   --   D:\Takuzu_V2\obj\pile_type_T.o
+   --   D:\Takuzu_V2\obj\resolution_takuzu.o
+   --   D:\Takuzu_V2\obj\gui.o
+   --   -LD:\Takuzu_V2\obj\
+   --   -LD:\Takuzu_V2\obj\
    --   -LC:\GtkAda\lib\gtkada\gtkada.static\gtkada\
-   --   -LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+   --   -LG:/logiciels/gnat_2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
    --   -static
    --   -shared-libgcc
    --   -shared-libgcc
